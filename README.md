@@ -12,7 +12,7 @@ You will need Emacs 24+, `make` and [Cask](https://github.com/cask/cask) to
 build the project.
 
     cd buffer-watcher
-    make && make install
+    cask install
 
 
 ## Contributing
