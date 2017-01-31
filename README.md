@@ -8,7 +8,7 @@ Canonical URL: [https://petton.fr/git/nico/buffer-watcher](https://petton.fr/git
 
 ## Installing
 
-You will need Emacs 24+, `make` and [Cask](https://github.com/cask/cask) to
+You will need Emacs 24+, and [Cask](https://github.com/cask/cask) to
 build the project.
 
     cd buffer-watcher
