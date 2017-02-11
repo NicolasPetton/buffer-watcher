@@ -1,8 +1,7 @@
+(source gnu)
 (source melpa)
 
 (package-file "buffer-watcher.el")
-
-(depends-on "f")
 
 (development
  (depends-on "ert")
