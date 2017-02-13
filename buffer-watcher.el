@@ -4,7 +4,7 @@
 
 ;; Author: Nicolas Petton <nicolas@petton.fr>
 ;; Package: buffer-watcher
-;; Package-Requires: ((f "0.16.2"))
+;; Package-Requires: ((f "0.16.2") (cl-lib "0.5"))
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.
