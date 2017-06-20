@@ -61,11 +61,9 @@ shell_command The shell command to run.  Occurences of \"%\" are replaced
         (default-directory (concat (directory-file-name (nth 2 command)) "/"))
         (shell-command (nth 3 command)))
     (message "%s" (concat "Running buffer watcher " command-name "..."))
-    (call-process-shell-command (buffer-watcher-shell-script shell-command)
-                                nil
-                                (get-buffer-create "*buffer-watcher-output*")
-                                nil)
-    (message "%s" (concat "Running buffer watcher " command-name "... done!"))))
+    (start-process-shell-command command-name
+				 (get-buffer-create "*buffer-watcher-output*")
+				 (buffer-watcher-shell-script shell-command))))
 
 
 (defun buffer-watcher-shell-script (script)
