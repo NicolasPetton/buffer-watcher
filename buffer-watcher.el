@@ -1,4 +1,4 @@
-;;; buffer-watcher.el --- Makes it easy to run shell scripts per filetype/directory when a buffer is saved.
+;;; buffer-watcher.el --- Easily run shell scripts per filetype/directory when a buffer is saved
 
 ;; Copyright (C) 2014-2017 Nicolas Petton
 
